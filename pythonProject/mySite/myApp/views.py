@@ -3,7 +3,7 @@ from canvasapi import Canvas
 
 # Canvas API URL and API key
 API_URL = "https://canvas.instructure.com"
-API_KEY = "7~R8JM8yNQYFn34EwfhCRLJZ6RTDaE7HNMnUBVD3NkTMwyXEGG82PEkzzKZNCCBuRf"
+API_KEY = " "
 
 # Initialize a Canvas object
 canvas = Canvas(API_URL, API_KEY)
@@ -67,3 +67,4 @@ def index(request):
         response_text += "\n"
 
     return HttpResponse(response_text, content_type="text/plain")
+
